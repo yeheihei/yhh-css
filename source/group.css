@@ -1,0 +1,48 @@
+/* 利用弹性布局使图标垂直居中 */
+.yhh-flex-icon {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* 常见的弹性流式布局 */
+.yhh-flex-start {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+/* 清除浮动*/
+.yhh-clearfix:after {
+    content: ".";
+    /*加一段内容*/
+    display: block;
+    /*让生成的元素以块级元素显示，占满剩余空间*/
+    height: 0;
+    /*避免生成的内容破坏原有布局高度*/
+    clear: both;
+    /*清除浮动*/
+    visibility: hidden;
+    /*让生成的内容不可见*/
+}
+.yhh-clearfix {
+    zoom: 1;
+    /*为IE6，7的兼容性设置*/
+}
+
+/* 文本溢出省略 */
+.yhh-elip {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* 显示块状元素 */
+.yhh-show {
+    display: block;
+}
+/* 隐藏元素 */
+.yhh-hide {
+    display: none;
+}

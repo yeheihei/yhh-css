@@ -1,0 +1,250 @@
+/* 左内边距 */
+.yhh-p-l-5 {
+    padding-left: 5px;
+}
+.yhh-p-l-10 {
+    padding-left: 10px;
+}
+.yhh-p-l-15 {
+    padding-left: 15px;
+}
+.yhh-p-l-20 {
+    padding-left: 20px;
+}
+.yhh-p-l-25 {
+    padding-left: 25px;
+}
+.yhh-p-l-30 {
+    padding-left: 30px;
+}
+/* 右内边距 */
+.yhh-p-r-5 {
+    padding-right: 5px;
+}
+.yhh-p-r-10 {
+    padding-left: 10px;
+}
+.yhh-p-r-15 {
+    padding-left: 15px;
+}
+.yhh-p-r-20 {
+    padding-left: 20px;
+}
+.yhh-p-r-25 {
+    padding-left: 25px;
+}
+.yhh-p-r-30 {
+    padding-left: 30px;
+}
+/* 上内边距 */
+.yhh-p-t-5 {
+    padding-right: 5px;
+}
+.yhh-p-t-10 {
+    padding-left: 10px;
+}
+.yhh-p-t-15 {
+    padding-left: 15px;
+}
+.yhh-p-t-20 {
+    padding-left: 20px;
+}
+.yhh-p-t-25 {
+    padding-left: 25px;
+}
+.yhh-p-t-30 {
+    padding-left: 30px;
+}
+/* 下内边距 */
+.yhh-p-b-5 {
+    padding-right: 5px;
+}
+.yhh-p-b-10 {
+    padding-left: 10px;
+}
+.yhh-p-b-15 {
+    padding-left: 15px;
+}
+.yhh-p-b-20 {
+    padding-left: 20px;
+}
+.yhh-p-b-25 {
+    padding-left: 25px;
+}
+.yhh-p-b-30 {
+    padding-left: 30px;
+}
+/* 左外边距 */
+.yhh-m-l-5 {
+    padding-left: 5px;
+}
+.yhh-m-l-10 {
+    padding-left: 10px;
+}
+.yhh-m-l-15 {
+    padding-left: 15px;
+}
+.yhh-m-l-20 {
+    padding-left: 20px;
+}
+.yhh-m-l-25 {
+    padding-left: 25px;
+}
+.yhh-m-l-30 {
+    padding-left: 30px;
+}
+/* 右外边距 */
+.yhh-m-r-5 {
+    padding-right: 5px;
+}
+.yhh-m-r-10 {
+    padding-left: 10px;
+}
+.yhh-m-r-15 {
+    padding-left: 15px;
+}
+.yhh-m-r-20 {
+    padding-left: 20px;
+}
+.yhh-m-r-25 {
+    padding-left: 25px;
+}
+.yhh-m-r-30 {
+    padding-left: 30px;
+}
+/* 上外边距 */
+.yhh-m-t-5 {
+    padding-right: 5px;
+}
+.yhh-m-t-10 {
+    padding-left: 10px;
+}
+.yhh-m-t-15 {
+    padding-left: 15px;
+}
+.yhh-m-t-20 {
+    padding-left: 20px;
+}
+.yhh-m-t-25 {
+    padding-left: 25px;
+}
+.yhh-m-t-30 {
+    padding-left: 30px;
+}
+/* 下外边距 */
+.yhh-m-b-5 {
+    padding-right: 5px;
+}
+.yhh-m-b-10 {
+    padding-left: 10px;
+}
+.yhh-m-b-15 {
+    padding-left: 15px;
+}
+.yhh-m-b-20 {
+    padding-left: 20px;
+}
+.yhh-m-b-25 {
+    padding-left: 25px;
+}
+.yhh-m-b-30 {
+    padding-left: 30px;
+}
+/* 宽100 */
+.yhh-w-100 {
+    width: 100%;
+}
+/* 高100 */
+.yhh-h-100 {
+    width: 100%;
+}
+/* 相对定位 */
+.yhh-p-r {
+    position: relative;
+}
+/* 鼠标悬浮小手 */
+.yhh-c-p {
+    cursor: pointer;
+}
+/* 左浮动 */
+.yhh-f-l {
+    float: left;
+}
+/* 右浮动 */
+.yhh-f-r {
+    float: right;
+}
+/* 字体对齐方式 */
+.yhh-t-a-l {
+    text-align: left;
+}
+.yhh-t-a-r {
+    text-align: right;
+}
+.yhh-t-a-c {
+    text-align: center;
+}
+/* 字体加粗 */
+.yhh-f-w-b {
+    font-weight: bold;
+}
+/* 垂直溢出滚动 */
+.yhh-o-a {
+    overflow-y: auto;
+}
+/* 设置元素所有方向溢出隐藏 */
+.yhh-o-h {
+    overflow: hidden;
+}
+/* 图片图标垂直居中 */
+.yhh-v-a-m {
+    vertical-align: middle;
+}
+/* 图片图标垂直和字体底部对齐 */
+.yhh-v-a-b {
+    vertical-align: text-bottom;
+}
+/* 利用弹性布局使图标垂直居中 */
+.yhh-flex-icon {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+/* 常见的弹性流式布局 */
+.yhh-flex-start {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+/* 清除浮动*/
+.yhh-clearfix:after {
+    content: ".";
+    /*加一段内容*/
+    display: block;
+    /*让生成的元素以块级元素显示，占满剩余空间*/
+    height: 0;
+    /*避免生成的内容破坏原有布局高度*/
+    clear: both;
+    /*清除浮动*/
+    visibility: hidden;
+    /*让生成的内容不可见*/
+}
+.yhh-clearfix {
+    zoom: 1;
+    /*为IE6，7的兼容性设置*/
+}
+/* 文本溢出省略 */
+.yhh-elip {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+/* 显示块状元素 */
+.yhh-show {
+    display: block;
+}
+/* 隐藏元素 */
+.yhh-hide {
+    display: none;
+}

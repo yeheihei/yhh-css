@@ -1,0 +1,31 @@
+{
+  "name": "yhh-css",
+  "version": "1.0.2",
+  "description": "CSS公共基础类和常用组装类，帮助快速开发",
+  "main": "yhh-css.min.css",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "compat": "npx postcss source/index.css -o yhh-css.css -u postcss-import autoprefixer --no-map",
+    "prod": "npx postcss source/index.css -o yhh-css.min.css -u postcss-import autoprefixer cssnano --no-map"
+  },
+  "keywords": [
+    "css",
+    "yhh-css"
+  ],
+  "files": [
+    "source/*.css",
+    "yhh-css.css",
+    "yhh-css.min.css",
+    "README.MD"
+  ],
+  "author": "yhh",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "postcss": "^8.1.4",
+    "postcss-cli": "^8.1.0",
+    "postcss-import": "^13.0.0"
+  }
+}
