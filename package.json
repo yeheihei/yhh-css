@@ -1,6 +1,6 @@
 {
   "name": "yhh-css",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "CSS公共基础类和常用组装类，帮助快速开发",
   "main": "yhh-css.min.css",
   "directories": {
